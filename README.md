@@ -1,5 +1,5 @@
 # ImageEncoder
-Encodes/Decodes image to/from my format <br />
+Command line tool to encodes/decodes image to/from my format <br />
 
 Format: <br />
 4 bytes: header "flBI" <br />
