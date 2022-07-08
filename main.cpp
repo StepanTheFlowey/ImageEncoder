@@ -163,6 +163,7 @@ void decodeImage(std::string in, std::string out) {
 
 int main(int argc, char** argv) {
   ArgsMan<char> arguments(argc, argv);
+
 #ifdef DEBUG
   arguments.debug();
 #endif // DEBUG
@@ -188,5 +189,6 @@ int main(int argc, char** argv) {
       encodeImage(arguments.getParam(1), "out.bin");
     }
   }
+
   return EXIT_SUCCESS;
 }
